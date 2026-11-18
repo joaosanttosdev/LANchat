@@ -1,0 +1,28 @@
+{
+  "name": "lancer-cliente",
+  "version": "0.1.0",
+  "description": "App desktop do LANcer Chat",
+  "private": true,
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
+    "build": "npm run typecheck && vite build",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "electron": "^45.3.4",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.8",
+    "vite-plugin-electron": "^1.2.0"
+  }
+}
