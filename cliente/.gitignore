@@ -1,0 +1,12 @@
+# Dependências instaladas pelo npm (cada um instala com "npm install")
+node_modules/
+
+# Código gerado pelo build
+dist/
+dist-electron/
+release/
+
+# Logs e variáveis de ambiente locais
+*.log
+.env
+.env.*

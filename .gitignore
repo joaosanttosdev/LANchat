@@ -1,0 +1,15 @@
+# Dependências instaladas pelo npm (cada um instala com "npm install")
+node_modules/
+
+# Código compilado (gerado com "npm run build")
+dist/
+
+# Bancos de dados locais e logs
+*.sqlite
+*.sqlite-journal
+*.db
+*.log
+
+# Variáveis de ambiente locais (podem ter segredos)
+.env
+.env.*
